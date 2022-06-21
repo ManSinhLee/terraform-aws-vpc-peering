@@ -18,11 +18,6 @@ variable "external_ip" {
   default = "0.0.0.0/0"
 }
 
-variable "internal_ip" {
-  type    = string
-  default = "13.250.255.181/32"
-}
-
 variable "profile" {
   type    = string
   default = "default"
@@ -30,10 +25,10 @@ variable "profile" {
 
 variable "my_address" {
   type    = string
-  default = "222.253.95.120/32"
+  default = "{Your Public IP address}/32"
 }
 
 variable "office_address" {
   type    = string
-  default = "115.73.222.137/32"
+  default = "{Your office public IP address}/32"
 }
