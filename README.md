@@ -33,10 +33,10 @@ Commands to use terraform:
 1.  Initialize a new or existing Terraform working directory:
 terraform init
 
-2. Generates a speculative execution plan
+2. Generates a speculative execution plan:
 terraform plan
 
-3. Creates or updates infrastructure according to Terraform configuration files in the current directory
+3. Creates or updates infrastructure according to Terraform configuration files in the current directory:
 terraform apply
 
 4. show resources:
