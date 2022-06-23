@@ -1,4 +1,5 @@
-This project create peering connection between 2 vpc on 2 regions: virginia and oregon
+This project create peering connection between 2 vpc on 2 regions: virginia and oregon.
+You need to change some values on variables.tf.
 
 1. config.tf: setup alias for region us-east-1 an us-west-2
 
